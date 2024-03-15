@@ -1,4 +1,4 @@
-name = '15. 3Sum'
+name = '76. Minimum Window Substring'
 
 name = name.replace('.', '')
 name = name.replace(' ', '_')
