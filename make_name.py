@@ -1,4 +1,4 @@
-name = '76. Minimum Window Substring'
+name = '36. Valid Sudoku'
 
 name = name.replace('.', '')
 name = name.replace(' ', '_')
