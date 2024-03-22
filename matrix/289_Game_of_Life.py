@@ -38,12 +38,12 @@ class Solution(object):
                       [i, j - 1], [i, j], [i, j + 1],
                       [i + 1, j - 1], [i + 1, j], [i + 1, j + 1]]
 
-        l = 0
+        l=0
         while l < len(index_list):
             if (index_list[l][0] < 0) or (index_list[l][0] >= len_raw) or (index_list[l][1] < 0) or (index_list[l][1] >= len_col):
                 index_list.pop(l)
             else:
-                l += 1
+                l+=1
         return index_list
 
 

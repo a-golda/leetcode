@@ -1,4 +1,4 @@
-name = '383. Ransom Note'
+name = '1. Two Sum'
 
 name = name.replace('.', '')
 name = name.replace(' ', '_')
