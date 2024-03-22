@@ -1,4 +1,4 @@
-name = '36. Valid Sudoku'
+name = '383. Ransom Note'
 
 name = name.replace('.', '')
 name = name.replace(' ', '_')
