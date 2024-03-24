@@ -1,4 +1,4 @@
-name = '1. Two Sum'
+name = '128. Longest Consecutive Sequence'
 
 name = name.replace('.', '')
 name = name.replace(' ', '_')
