@@ -1,20 +1,23 @@
 from typing import List
 
-
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
-        points.sort(key=lambda x: x[0])
-        res = len(points)
+        points.sort(key=lambda x: x[1])
+        arrows = 1
+        end = points[0][1]
 
-        for i, point in enumerate(points[1:]):
-            if points[i][1]>=point[0]:
-                res-=1
+        for balloon in points:
+            start_balloon, end_balloon = balloon
+            if start_balloon>end:
+                arrows+=1
+                end = end_balloon
             else:
                 pass
+        return arrows
 
-        return res
+print(Solution().findMinArrowShots(points = [[3,9],[7,12],[3,8],[6,8],[9,10],[2,9],[0,9],[3,9],[0,6],[2,8]]))
 
-print(Solution().findMinArrowShots(points = [[10,16],[2,8],[1,6],[7,12]]))
+
 
 # 123456789123456
 # [    ]
