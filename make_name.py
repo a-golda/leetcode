@@ -1,4 +1,4 @@
-name = '452. Minimum Number of Arrows to Burst Balloons'
+name = '141. Linked List Cycle'
 
 name = name.replace('.', '')
 name = name.replace(' ', '_')
